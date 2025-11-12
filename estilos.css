@@ -243,3 +243,25 @@ header {
 .font-bold{
     font-weight: 700;
 }
+
+/* Css parte 4 */
+.fichas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fichas-contenido{
+  padding: 60px;
+  width: 250px;
+  height: 100px;
+}
+
+.imagen-fichas{
+  border-radius: 10px;
+}
+
+.read-more{
+  text-align: end;
+  color: rgb(90, 5, 107);
+  font-weight: 600;
+}
