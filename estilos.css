@@ -32,7 +32,15 @@
 .color-verde-tar { --color-tarjeta: var(--color-verde-tar);      --color-texto:var(--color-verde-tar);}
 .color-amarillo-tar { --color-tarjeta: var(--color-amarillo-tar);--color-texto:var(--color-amarillo-tar);}
 .color-morado-tar { --color-tarjeta: var(--color-morado-tar);    --color-texto:var(--color-morado-tar);}
-
+body{
+  font-family: var(--fuente-principal);
+  font-weight: 400;
+  font-style: normal;
+  font-optical-sizing: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 header {
     display: flex;
     align-items: center;
@@ -44,7 +52,6 @@ header {
 
 .titulo-general {
     font-size: 24px;
-    font-family: var(--fuente-principal);
     margin: 0;
 }
 
@@ -52,7 +59,6 @@ header {
 }
 
 #menu ul {
-    font-family: var(--fuente-principal);
     display: flex;
     justify-content: space-around;
     list-style-type: none;
@@ -88,7 +94,6 @@ header {
 }
 
 .primera-pantalla {
-    font-family: var(--fuente-principal);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,9 +242,7 @@ header {
 
 }
 
-.inter {
-  font-family: "Inter", sans-serif;
-}
+
 .font-bold{
     font-weight: 700;
 }
