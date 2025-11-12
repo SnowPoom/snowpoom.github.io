@@ -279,6 +279,68 @@ a {
   font-weight: 600;
 }
 
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 270px;
+}
+
+.contacto-contenido{
+    padding: 20px;
+    width: 350px;
+    height: 200px;
+    line-height: 1.5;
+}
+
+.contacto-contenido p{
+    color: var(--color-gris-pastel);
+}
+
+.contacto-contenido h4{
+    color: var(--color-gris-claro);
+}
+
+.links-contenido{
+    padding: 20px;
+    width: 150px;
+    height: 500px;
+}
+
+.links-contenido h4{
+    color: var(--color-gris-claro);
+}
+
+.links-contenido ul{
+    list-style: none;
+    padding: 0;
+    line-height: 2.8;
+    color: var(--color-gris-pastel);
+}
+
+.contactanos-contenido{
+    padding: 20px;
+    width: 280px;
+    height: 500px;
+    line-height: 1.5;
+}
+
+.contactanos-contenido p{
+    color: var(--color-gris-pastel);
+}
+
+.contactanos-contenido h4{
+    color: var(--color-gris-claro);
+}
+
+.iconos{
+    padding: 20px;
+    width: 350px;
+    height: 200px;
+    position: relative;
+    top: 340px;
+}
+
 .testimonios {
   background-color: var(--color-gris-claro-fondo);
   text-align: center;
