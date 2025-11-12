@@ -469,3 +469,9 @@ a {
   margin-top: 10px;
   line-height: 1;
 }
+.bg-wh{
+    background-color: #ffffff;
+}
+.bg-gray{
+    background-color: var(--color-gris-fondo);
+}
