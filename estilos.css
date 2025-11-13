@@ -197,7 +197,7 @@ a {
 .cont-approach {
   display: grid;
   grid-template-columns: repeat(2, 604px);
-
+  margin-bottom: 30px;
   gap: 20px 10px;
 }
 .tarjeta {
@@ -256,7 +256,22 @@ a {
 .font-bold{
     font-weight: 700;
 }
-
+.cont-feat{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  height: 500px;
+  background-color: var(--color-gris-fondo);
+  border-top: 2px solid var(--color-violeta);
+}
+.cont-feat h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 35px;
+  height: 70px;
+  width: 474px;
+}
 /* Css parte 4 */
 .fichas{
     display: flex;
@@ -281,9 +296,11 @@ a {
 
 .contacto{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
-    top: 270px;
+    height: 500px;
+      border-top: 1px solid var(--color-violeta);
+
 }
 
 .contacto-contenido{
@@ -474,4 +491,12 @@ a {
 }
 .bg-gray{
     background-color: var(--color-gris-fondo);
+}
+
+.footer {
+    text-align: center;
+    background-color: var(--color-blanco);
+    color: var(--color-gris-claro);
+    border-top: 2px solid var(--color-violeta);
+    font-size: 14px;
 }
